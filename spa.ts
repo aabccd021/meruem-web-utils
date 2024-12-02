@@ -4,8 +4,11 @@
 // so we can use browser's refresh button to refresh current page only,
 // while keeping cache of other pages
 
+// TODO: rename spa to freeze
+// TODO: only prevent default if the page is already cached
+//       don't use fetch
+//       always dump innerhtml if url matches
 // TODO: use cookie as cache key
-// TODO: only prevent default if the page is already cached, always dump innerhtml if url matches
 
 interface PageData {
   readonly body: string;
