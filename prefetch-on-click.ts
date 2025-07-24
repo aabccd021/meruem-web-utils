@@ -6,6 +6,7 @@
       el.addEventListener(
         event,
         () => {
+          // prefetch 
           const link = document.createElement("link");
           link.rel = "prefetch";
           link.as = "document";
